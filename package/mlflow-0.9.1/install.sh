@@ -35,7 +35,7 @@ rm -f tmp-pip-help.tmp
 echo "Downloading and installing MLFLow prebuilt libraries..."
 echo ""
 
-${CK_ENV_COMPILER_PYTHON_FILE} -m pip install mlflow=${PACKAGE_VER} --prefix=${EXTRA_PYTHON_SITE} ${SYS}
+${CK_ENV_COMPILER_PYTHON_FILE} -m pip install mlflow==${PACKAGE_VER} --prefix=${EXTRA_PYTHON_SITE} ${SYS}
 if [ "${?}" != "0" ] ; then
   echo "Error: installation failed!"
   exit 1

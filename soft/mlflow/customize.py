@@ -77,12 +77,7 @@ def setup(i):
     env[ep+'_LIB']  = lib_path
     env[ep+'_BIN']  = bin_path
 
-    # Path to bundled protobuf.
-    pb=os.path.join(lib_path ,'external','protobuf_archive','python')
-
-    if winh=='yes':
-        s+='\nset PYTHONPATH='+lib_path +';'+pb+';%PYTHONPATH%\n'
-    else:
-        s+='\nexport PYTHONPATH='+lib_path +':'+pb+':${PYTHONPATH}\nexport PATH='+bin_path+':${PATH}\n'
+    # No Windows support yet
+    s+='\nexport PYTHONPATH='+lib_path +':'+pb+'\nexport PATH='+bin_path+':${PATH}\n'
 
     return {'return':0, 'bat':s}
