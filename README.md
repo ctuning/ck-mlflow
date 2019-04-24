@@ -26,7 +26,7 @@ Please, follow [this guide](https://github.com/ctuning/ck#installation) to insta
 
 ```
 $ ck pull repo:ck-mlflow
-$ ck install package:mlflow
+$ ck install package:mlflow-github
 ```
 
 ## Feedback
