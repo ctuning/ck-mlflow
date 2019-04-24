@@ -22,11 +22,18 @@ using [Collective Knowledge Framework (CK)](http://cKnowledge.org),
 
 Please, follow [this guide](https://github.com/ctuning/ck#installation) to install CK.
 
-## MLFlow installation via CK
+## Install MLFlow via CK
 
 ```
 $ ck pull repo:ck-mlflow
 $ ck install package:mlflow-github
+```
+
+## Use MLFlow via CK
+
+```
+$ ck virtual env --tags=mlflow
+$ mlflow
 ```
 
 ## Feedback
