@@ -1,0 +1,21 @@
+{
+  "data_uoa": "ck-mlflow",
+  "data_uid": "23dd4b94ab240d29",
+  "data_alias": "ck-mlflow",
+  "data_name": "ck-mlflow",
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-mlflow",
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      },
+      {
+        "repo_uoa": "ck-math"
+      },
+      {
+        "repo_uoa": "ctuning-datasets-min"
+      }
+    ]
+  }
+}
