@@ -1,11 +1,10 @@
 {
-  "data_uoa": "ck-mlflow",
-  "data_uid": "23dd4b94ab240d29",
   "data_alias": "ck-mlflow",
   "data_name": "ck-mlflow",
+  "data_uid": "23dd4b94ab240d29",
+  "data_uoa": "ck-mlflow",
   "dict": {
-    "shared": "git",
-    "url": "https://github.com/ctuning/ck-mlflow",
+    "desc": "Portable and customizable installation and unified CK access to MLFlow from DataBricks",
     "repo_deps": [
       {
         "repo_uoa": "ck-autotuning"
@@ -16,6 +15,8 @@
       {
         "repo_uoa": "ctuning-datasets-min"
       }
-    ]
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-mlflow"
   }
 }
